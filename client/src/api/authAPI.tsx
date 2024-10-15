@@ -10,6 +10,11 @@ const login = async (userInfo: UserLogin) => {
       body: JSON.stringify(userInfo),
     });
 
+    if (response.status === 401) {
+      // Handle 401 Unauthorized error gracefully
+      return { error: 'Invalid username or password' };
+    }
+
     if (!response.ok) {
       throw new Error("Login failed");
     }
