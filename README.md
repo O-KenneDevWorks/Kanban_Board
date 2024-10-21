@@ -133,7 +133,7 @@ Open a browser and visit http://localhost:3001 to access the application.
 ![loginPage](./public/KanbanLogin.png)
 
 **Kanban Board**
-![boardPage](./public/KanbanLogin.png)
+![boardPage](./public/KanbanBoard.png)
 
 ## Deployment
 
